@@ -118,8 +118,8 @@ bindsym $mod+Shift+Delete	exec --no-startup-id lmc truemute ; exec $truepause ; 
 bindsym $mod+q			[con_id="__focused__" instance="^(?!math|dropdown).*$"] kill
 bindsym $mod+Shift+q		[con_id="__focused__" instance="^(?!math|dropdown).*$"] kill
 
-bindsym $mod+w			exec --no-startup-id $BROWSER
-bindsym $mod+Shift+w		exec --no-startup-id $BROWSER
+bindsym $mod+w			exec --no-startup-id $BROWSER --new-window
+bindsym $mod+Shift+w		exec --no-startup-id $BROWSER --private-window
 
 bindsym $mod+e			exec $term -e neomutt
 bindsym $mod+Shift+e		exec --no-startup-id tutorialvids
