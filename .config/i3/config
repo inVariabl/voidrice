@@ -187,7 +187,8 @@ bindsym $mod+v			exec $term -e ncmpcpp -s visualizer
 bindsym $mod+Shift+v		exec --no-startup-id projectM-pulseaudio
 
 bindsym $mod+b			bar mode toggle
-bindsym $mod+Shift+b		floating toggle; sticky toggle; exec --no-startup-id bottomleft
+#bindsym $mod+Shift+b		floating toggle; sticky toggle; exec --no-startup-id bottomleft
+bindsym $mod+Shift+b		floating toggle; sticky toggle; exec --no-startup-id bottomright
 
 bindsym $mod+n			exec $term -e newspod
 ##bindsym $mod+Shift+n
